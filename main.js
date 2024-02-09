@@ -14,6 +14,7 @@ const canvas = document.querySelector('#c');
 const renderer = new THREE.WebGLRenderer({ antialias: true, canvas });
 const gui = new GUI();
 
+
 const fov = 40;
 const aspect = window.innerWidth / window.innerHeight; // the canvas default
 const near = 0.1;
